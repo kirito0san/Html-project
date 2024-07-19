@@ -10,7 +10,7 @@ import Text from "./components/Text";
 
 function App() {
   return (
-    <div className="flex flex-col gap-5 p-5 mx-auto my-5 w-5/6 text-white rounded-lg App">
+    <div className="flex flex-col gap-5 p-5 mx-auto my-5 text-white rounded-lg md:w-5/6 App">
       <Home />
       <Text />
       <Image />
@@ -19,8 +19,7 @@ function App() {
       <Table />
       <List />
       <Miscellaneous />
-
-      <a href="#home-page" className="flex fixed right-5 bottom-5 justify-center items-center w-10 h-10 font-extrabold text-blue-500 bg-[#535353] rounded-lg" >
+      <a href="#home-page" className="flex fixed right-5 bottom-5 justify-center items-center w-10 h-10 font-extrabold text-blue-500 bg-[#191313] rounded-lg" >
         UP
       </a>
     </div>

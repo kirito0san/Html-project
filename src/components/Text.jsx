@@ -28,9 +28,13 @@ const Text = () => {
           <blockquote className="pl-4 mb-4 italic border-l-4 border-gray-300">
             This is a blockquote. It is typically used to quote someone or something.
           </blockquote>
-          <pre className="p-4 mb-4 bg-gray-200 rounded">
-            {`This is preformatted text.
-It preserves both spaces and line breaks.`}
+          <pre className="p-4 mb-4 text-sm bg-gray-200 rounded md:text-xl">
+            {`This is 
+preformatted 
+text.
+It preserves 
+both spaces 
+and line breaks.`}
           </pre>
         </section>
 
